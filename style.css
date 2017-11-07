@@ -34,7 +34,6 @@ h1 {
     width: 100%;
     box-shadow: 0px 0px 80px 0px #313131;
     display: inline-block;
-    
 }
 
 input {
@@ -79,7 +78,7 @@ input {
         margin-top: 40px;
         margin: 40px;
     }
-    .message{
+    .message {
         margin-bottom: 2%;
     }
     .address {
