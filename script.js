@@ -1,7 +1,11 @@
-var name = document.getElementById('name').value;
-var email=document.getElementById('email').value;
-var message=document.getElementById('message').value;
+function outputValue(){
+	var name;
+	var email;
+	var message;
 
-documnet.getElementById('sendBtn').onclick{
-	alert(name);
-};
+	name=document.getElementById('name').value;
+	email=document.getElementById('email').value;
+	message=document.getElementById('message').value;
+	alert("Name: " + name + "   Email: " + email + "   Message: " + message);
+
+}

@@ -11,23 +11,34 @@
 <body>
     <div class="contactForm">
         <h1>Contact Us</h1>
-        <img class="map" src="img/map.jpg">
-        </br>
         <div class="address">
-            Findaway
+            <img class="map" src="img/map.jpg">
             </br>
-            31999 Aurora Rd
-            </br>
-            Solon, OH 44139
+            <div class="addressText">
+                Findaway
+                </br>
+                31999 Aurora Rd
+                </br>
+                Solon, OH 44139
+            </div>
         </div>
         </br>
         Name *
-        <input type="text" class="name" id="name" value=""></input>
+        <div>
+            <input type="text" class="name" id="name"></input>
+        </div>
+        </br>
         Email *
-        <input class="email" id="email" value=""></input>
+        <div>
+            <input class="email" id="email"></input>
+        </div>
+        </br>
         Message *
-        <input class="message" id="message" value=""></input>
-        <button id="sendBtn" class="sendBtn">Send Message</button>
+        <div>
+            <input class="message" id="message"></input>
+        </div>
+        </br>
+        <button id="sendBtn" class="sendBtn" onclick="outputValue()">Send Message</button>
     </div>
 </body>
 
