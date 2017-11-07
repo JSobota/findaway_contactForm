@@ -22,6 +22,10 @@ h1 {
     position: relative;
 }
 
+.addressText{
+    margin-top: 10px;
+}
+
 .address {
     margin-left: 50%;
     width: 50%;
@@ -89,7 +93,7 @@ input {
         position: relative;
     }
     .addressText {
-        font-size: 6px;
+        font-size: 16px;
     }
     .sendBtn {
         margin-left: 11%;
